@@ -4,4 +4,19 @@ git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/jaysen-crypto/site/lsjp-site.git
 git push -u origin master
+{
+  "name": "lsjpwellness",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
 
