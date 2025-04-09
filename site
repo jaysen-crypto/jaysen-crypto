@@ -1,9 +1,7 @@
-lsjp-wellness-next/
-├── app/
-│   └── page.jsx
-│   └── globals.css
-├── public/
-├── package.json
-├── next.config.js
-├── postcss.config.js
-├── tailwind.config.js
+cd le-dossier/lsjp-wellness-next
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/jaysen-crypto/site/lsjp-site.git
+git push -u origin master
+
